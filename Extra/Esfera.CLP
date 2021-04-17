@@ -17,7 +17,8 @@
 	(esfera (nombre ?nombree) (radio ?radio))
 	(objeto (nombre ?nombreo) (menordimension ?menordimension))
 	(cuerda (nombre ?nombrec) (incrementolongitud ?incrementolongitud))
-   (test (> (/ ?incrementolongitud 6.283) ?menordimension)) ; El 6.283 equivale a 2Pi
    =>
-	(printout t ?nombreo " puede pasar entre la cuerda y la " ?nombree " ya que su menor dimensión es " ?menordimension " y el espacio que queda entre " ?nombree " y " ?nombrec " es de " (/ ?incrementolongitud 6.283) crlf)
+	(if(>(/ ?incrementolongitud 6.283) ?menordimension) ; El 6.283 equivale a 2Pi
+	then (printout t ?nombreo " puede pasar entre la cuerda y la " ?nombree " ya que su menor dimensión es " ?menordimension " y el espacio que queda entre " ?nombree " y " ?nombrec " es de " (/ ?incrementolongitud 6.283) crlf)
+	else (printout t ?nombreo " no puede pasar entre la cuerda y la " ?nombree " ya que su menor dimensión es " ?menordimension " y el espacio que queda entre " ?nombree " y " ?nombrec " es de " (/ ?incrementolongitud 6.283) crlf))
 )
