@@ -1,4 +1,6 @@
-![SIN](https://image.freepik.com/vector-gratis/ai-antecedentes-inteligencia-artificial-aprendizaje-automatico_127544-409.jpg)
+<div align="center">
+    <img width="100%" src="https://image.freepik.com/vector-gratis/ai-antecedentes-inteligencia-artificial-aprendizaje-automatico_127544-409.jpg" alt="SIN">
+</div>
 
 # Instructions:
 The practices are organized as follows:
