@@ -16,3 +16,4 @@ The files have been created using CLIPS 6.3 if you want to run them you must do 
 		CLIPS> (load "file PAHT")
 		
 		```
+I should mention that this content is based on the exceptional resources provided by the Teachers of the Intelligent Agents course of the Degree of Computing of the University of Córdoba, <you can mention here some of them>, which have been complemented on my own. In fact, I suggest you doing so on your own to really grasp the ideas of the course. Good luck
